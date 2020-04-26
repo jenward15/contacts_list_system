@@ -12,7 +12,7 @@ class ViewController extends Controller
     public function index(Request $request)
     {	
     	if ($request->expectsJson()) {
-    		$users = User::select(['id','image','first_name','last_name','email','contact_number','status'])
+    		$users = User::select(['id','image','first_name','last_name','email','contact_number'])
                 ->where('id', '!=', 1)
 	            ->latest()
 	            ->get();

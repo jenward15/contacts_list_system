@@ -60,7 +60,6 @@
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Contact Number</th>
-                                    <th>Status</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -91,7 +90,6 @@
                 { 'data': 'name' },
                 { 'data': 'email' },
                 { 'data': 'contact_number' },
-                { 'data': 'status' },
             ],
             'paging'      : true,
             'lengthChange': true,

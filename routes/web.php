@@ -18,7 +18,7 @@ Auth::routes();
 // Homepage
 Route::get('/')
 	->uses('Homepage\ViewController@index')
-	->name('home.contact');
+	->name('home');
 
 Route::prefix('/')->middleware(['auth'])->namespace('Dashboard')->group( function(){
 
